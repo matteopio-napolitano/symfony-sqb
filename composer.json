@@ -8,8 +8,8 @@
         }
     },
     "require": {
-        "symfony/console": "^3.3",
-        "greenlion/php-sql-parser": "^4.1"
+        "symfony/console": ">=2.3-stable",
+        "greenlion/php-sql-parser": "^4.1-stable"
     },
     "license": "GNU General Public License v3.0",
     "authors": [
@@ -18,5 +18,5 @@
             "email": "matteopio.napolitano@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
