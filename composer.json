@@ -1,0 +1,22 @@
+{
+    "name": "matteopionapolitano/symfony-sqb",
+    "description": "A simple Symfony Command that helps in converting Native SQL Query in QueryBuilder PHP Code",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.3",
+        "greenlion/php-sql-parser": "^4.1"
+    },
+    "license": "GNU General Public License v3.0",
+    "authors": [
+        {
+            "name": "Matteo Pio Napolitano",
+            "email": "matteopio.napolitano@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
